@@ -11,7 +11,7 @@ public class App
       System.out.println("¿Texto está en blanco?: " + StringUtils.isBlank(texto));
       System.out.println("Texto sin espacios: '" + StringUtils.trim(texto) + "'");
  
-      Persona persona = new Persona("César", 40);
+      Persona persona = new Persona("Cesar", 40);
       String json = new Gson().toJson(persona);
       System.out.println("Persona en JSON: " + json);
     }
